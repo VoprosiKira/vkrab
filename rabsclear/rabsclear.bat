@@ -1,0 +1,2 @@
+python rabsclear.py
+pause
