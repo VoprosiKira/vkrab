@@ -6,7 +6,7 @@ from threading import Thread
 from requests import get, post
 from fake_useragent import UserAgent
 ua = UserAgent().random 
-auth = "vk_access_token_settings=friends,status&vk_app_id=7794757&vk_are_notifications_enabled=0&vk_is_app_user=1&vk_is_favorite=0&vk_language=ru&vk_platform=desktop_web&vk_ref=catalog_recent&vk_ts=1617106117&vk_user_id=289406032&sign=z_VH1efPaVmbNg9fnMABk-WFuvkjbNZFRil4aNUBhLo"
+auth = ""
 
 def get_start():
     # Получение полной информации о своём профиле
